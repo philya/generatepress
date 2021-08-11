@@ -18,6 +18,8 @@ if ( ! function_exists( 'generate_scripts' ) ) {
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 		$dir_uri = get_template_directory_uri();
 
+		wp_enqueue_style( 'treeblox', $dir_uri . "/assets/css/treeblox.css", array(), GENERATE_VERSION, 'all' );
+
 		if ( generate_is_using_flexbox() ) {
 			if ( is_singular() && comments_open() ) {
 				wp_enqueue_style( 'generate-comments', $dir_uri . "/assets/css/components/comments{$suffix}.css", array(), GENERATE_VERSION, 'all' );

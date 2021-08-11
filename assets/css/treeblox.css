@@ -1,0 +1,33 @@
+.site-branding .main-title a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+}
+
+.site-branding {
+    margin-top: 50px;
+    margin-bottom:  00px;
+}
+
+.site-branding .site-description {
+    margin-top: 10px;
+    font-size:  19px;
+
+}
+
+.hero-image {
+    margin-top:  -55px;
+}
+
+
+
+
+
+.mailerlite-form .mailerlite-subscribe-button-container {
+    text-align: right;
+}
+
+#mailerlite-1-field-email {
+    width:  100%;
+}

@@ -84,7 +84,7 @@ if ( ! function_exists( 'generate_add_footer_info' ) ) {
 	 * @since 0.1
 	 */
 	function generate_add_footer_info() {
-		$copyright = sprintf(
+		/*$copyright = sprintf(
 			'<span class="copyright">&copy; %1$s %2$s</span> &bull; %4$s <a href="%3$s"%6$s>%5$s</a>',
 			date( 'Y' ), // phpcs:ignore
 			get_bloginfo( 'name' ),
@@ -92,7 +92,9 @@ if ( ! function_exists( 'generate_add_footer_info' ) ) {
 			_x( 'Built with', 'GeneratePress', 'generatepress' ),
 			__( 'GeneratePress', 'generatepress' ),
 			'microdata' === generate_get_schema_type() ? ' itemprop="url"' : ''
-		);
+		);*/
+
+		$copyright = '<span class="copyright">&copy; 2021 Emergent Plant Life Inc.</span>';
 
 		echo apply_filters( 'generate_copyright', $copyright ); // phpcs:ignore
 	}
