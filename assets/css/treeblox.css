@@ -31,3 +31,15 @@
 #mailerlite-1-field-email {
     width:  100%;
 }
+
+
+#mailerlite-form_1 {
+    padding:30px;
+    border:3px solid #DC7289;
+    border-radius: 10px;
+}
+
+#mailerlite-form_1 .mailerlite-subscribe-submit {
+    background-color: #119b6d;
+}
+
